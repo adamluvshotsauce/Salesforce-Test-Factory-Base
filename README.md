@@ -33,7 +33,7 @@ Usage:
     Account acct = (Account)base.createSObject(new Account());
 
     /*********************************************************************************************** 
-    *   Name Field Map configuration
+    *   Name Field Map Configuration
     ***********************************************************************************************/
 
     // Update the map with SObject => Field API Name pairing for special objects that don't have a
@@ -44,7 +44,7 @@ Usage:
     };
 
     /*********************************************************************************************** 
-    *   TestFactoryBase is a virtual class so it's also extendable
+    *   TestFactoryBase is Extendable
     ***********************************************************************************************/
 
     // You can use it to borrow Base test methods in existing or new 
